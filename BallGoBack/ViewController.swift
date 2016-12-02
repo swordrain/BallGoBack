@@ -26,6 +26,8 @@ class ViewController: UIViewController {
     }
     
     private func setupView(){
+        
+        view.backgroundColor = UIColor.cyan
         //create ball
         let ball = UIView()
         ball.backgroundColor = UIColor.red
